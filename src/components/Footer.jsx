@@ -7,7 +7,7 @@ const Footer = () => {
                     <img src={logoBranca} alt="Digital Store"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         <div className="redes">
-                            <a href=""><box-icon type='logo' name='facebook'></box-icon></a>
+                            <a href=""><box-icon name='facebook' type='logo'></box-icon></a>
                             <a href=""><box-icon name='instagram' type='logo'></box-icon></a>
                             <a href=""><box-icon name='twitter' type='logo'></box-icon></a>
                         </div>

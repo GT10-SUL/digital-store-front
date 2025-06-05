@@ -43,6 +43,7 @@ const Login = () => {
                         type="text"
                         placeholder="Insira seu login ou email"
                         className="bg-grafite/5 rounded w-full mb-5 h-[60px] duration-150 outline-transparent focus:outline-rosa pl-4"
+                        required
                     />
                     <label className="block mb-1">Senha *</label>
                     <input
@@ -50,6 +51,7 @@ const Login = () => {
                         type="password"
                         placeholder="Insira sua senha"
                         className="bg-grafite/5 rounded w-full mb-[30px] h-[60px] duration-150 outline-transparent focus:outline-rosa pl-4"
+                        required
                     />
                     <a href="" className="text-grafite underline hover:text-rosa mb-[30px] block">Esqueci minha senha</a>
                     <button
